@@ -4,7 +4,7 @@
 - This repository is used for text/code similarity checking
 
 ## Preparation
-- Install all module in requirements.txt
+- Install all module in requirements.txt (preferable use virtualenv)
 - Install FAISS
 
 ## How to use
