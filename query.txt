@@ -10,7 +10,7 @@ type request struct {
 const maxKeluar = 5
 const numOfrekues = 1000
 
-//bagaimana cara membatasi data yang diproses ? hint:buffered channel
+//bagaimana fake commit cara membatasi data yang diproses ? hint:buffered channel
 func doubleCalculatorWorker(queue chan request, maxThroughput int, maxObservedThroughtputC chan int) {
 	//beginanswer
 	var semaphore = make(chan int, maxThroughput)
